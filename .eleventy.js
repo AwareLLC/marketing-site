@@ -1,3 +1,4 @@
+const yaml = require("js-yaml");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 
@@ -27,4 +28,5 @@ module.exports = function(eleventyConfig) {
   return {
     dir: { input: 'src', output: '_site' }
   };
+
 };
