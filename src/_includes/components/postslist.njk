@@ -1,13 +1,35 @@
-<ul>
-  {% for post in postslist %}
-    <li>
-      <strong>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </strong>
-      -
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-      -
-      <span>{{ post.data.description }}</span>
-    </li>
-  {% endfor %}
-</ul>
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="text-center">
+            <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">From the blog</h1>
+            <p class="max-w-lg mx-auto mt-4 text-gray-500">
+              Aware resources.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
+          {% for post in postslist %}
+              <div>
+                  <div class="relative">
+                      <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                  </div>
+
+                  <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                  </h1>
+
+                  <hr class="w-32 my-6 text-blue-500">
+
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                    {{ post.data.description }}
+                  </p>
+
+                  <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+              </div>
+
+          {% endfor %}
+        </div>
+
+    </div>
+</section>
