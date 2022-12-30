@@ -2,5 +2,6 @@
 layout: layouts/base.njk
 ---
 
-<time>{{ date | readableDate }}</time>
+<h1>{{ title }}</h1>
+<img src={{ thumbnail }} width='600px'/>
 <article>{{ content | safe }}</article>
