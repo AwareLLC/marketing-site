@@ -28,7 +28,7 @@ collections:
         multiple: true
         create: true
         optional: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["Page", "Footer"]
   - label: "Settings"
     name: "settings"
     editor:
