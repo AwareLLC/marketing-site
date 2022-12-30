@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta property="og:title" content={ title or renderData.title or metadata.title }/>
-		<meta property="og:url" content={ page.url } />
-		<meta property="og:description" content={description or renderData.description} />
-		<meta property="og:image" content="/static/img/logo.png" />
-		<meta property="og:type" content="article" />
+    <meta property="og:title" content={{ title or renderData.title or metadata.title }} />
+    <meta property="og:url" content={{ page.url }} />
+    <meta property="og:description" content="{{ metadescription }}" />
 
-     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/main.css" />
   </head>
 
   <body>
