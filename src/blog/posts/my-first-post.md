@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "LinkedIn SSI: The Pros, The Cons, and Everything Else You Need to Know"
-description: The first post on the bloga
+description: "LinkedIn SSI: The Pros, The Cons, and Everything Else You Need to Know"
 date: 2020-08-01
 thumbnail: /media/brandbird-3-.png
 tags:
