@@ -26,7 +26,7 @@ Put another way: it's the practice of using social media to connect with both yo
 
 ## Where to Find Your LinkedIn SSI Score
 
-While logged into LinkedIn, click here to see your score.
+While logged into LinkedIn, click [here](linkedin.com/sales/ssi) to see your score.
 
 ## What makes up the LinkedIn SSI?
 
