@@ -1,7 +1,9 @@
 ---
 layout: layouts/post.njk
 title: "LinkedIn SSI: The Pros, The Cons, and Everything Else You Need to Know"
-description: "LinkedIn SSI: The Pros, The Cons, and Everything Else You Need to Know"
+description: Unsure whether you should be paying attention to your LinkedIn
+  Social Selling Index (SSI)? Our social selling pro chimes on the pros and
+  cons.
 date: 2020-08-01
 thumbnail: /media/brandbird-3-.png
 tags:
@@ -11,10 +13,10 @@ LinkedIn’s Social Selling Index (SSI) is an automated score that measures an i
 
 While this is somewhat useful information to know when you're just starting out at social selling, there are some big drawbacks to be aware of:
 
-LinkedIn doesn't know how to help you improve your actual sales results
-LinkedIn only gives you very vague information about how to improve your SSI
-The SSI is not something I regularly use as a successful social seller, because it doesn't actually measure my business success from using LinkedIn
-As a result, sellers should be aware that the SSI score exists, and may want to check it every so often in the early days of building their LinkedIn account.
+* LinkedIn doesn't know how to help you improve your actual sales results
+* LinkedIn only gives you very vague information about how to improve your SSI
+* The SSI is not something I regularly use as a successful social seller, because it doesn't actually measure my business success from using LinkedIn
+* As a result, sellers should be aware that the SSI score exists, and may want to check it every so often in the early days of building their LinkedIn account.
 
 However, there are far better ways to improve and track your social selling performance than trying to improve your SSI.
 
@@ -59,9 +61,13 @@ But when we talk about whether this metric is important, we shouldn't confuse "d
 ## What Should You Do Instead To Increase Sales on LinkedIn?
 
 Focus on getting engagement on your content - both Posts and Comments - with other relevant people within your target account base.
+
 When posting content, your key goals should be to Demonstrate Credibility and Highlight Customer Results. If you don't do this, it doesn't matter how much engagement you get in total, because it won't lead to new business.
+
 That said: do shoot for an Engagement Rate on your Posts of at least 1.5% (defined as the number of unique engagers on your post, divided by the number of Views).
+
 Have direct message (DM)conversations with people that are on the buying committee within your target accounts, meaning your prospective decision-makers and their teams. DMing with your peers, influencers, competitors, and friends is fine - but again, you need to be targeted in your approach.
+
 The difference between focusing on your LinkedIn SSI, and focusing on improving your social selling results, can be summed up like this:
 
 The LinkedIn SSI measures activity, but it does not measure targeted activity that leads to building pipeline and closing sales.  
