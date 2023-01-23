@@ -1,0 +1,75 @@
+
+
+<!-- ====== Navbar Section Start -->
+<header
+  x-data="
+        {
+          navbarOpen: false
+        }
+      "
+  class="flex w-full items-center bg-white"
+>
+  <div class="container mx-auto">
+    <div class="relative -mx-4 flex items-center justify-end">
+      <div class="max-w-full px-4">
+        <a href="/" class="block w-full py-5">
+					<img src="/assets/images/aware-logo-dark.png" width="250px" height="52px" class="mr-3" alt="Aware Logo">
+        </a>
+      </div>
+      <div class="flex w-full items-center justify-end px-4">
+        <div>
+          <button
+            @click="navbarOpen = !navbarOpen"
+            :class="navbarOpen && 'navbarTogglerActive' "
+            id="navbarToggler"
+            class="ring-primary absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden"
+          >
+            <span
+              class="bg-primary-300 relative my-[6px] block h-[2px] w-[30px]"
+            ></span>
+            <span
+              class="bg-primary-300 relative my-[6px] block h-[2px] w-[30px]"
+            ></span>
+            <span
+              class="bg-primary-300 relative my-[6px] block h-[2px] w-[30px]"
+            ></span>
+          </button>
+          <nav
+            :class="!navbarOpen && 'hidden' "
+            id="navbarCollapse"
+            class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none"
+          >
+						{% set navPages = collections.all | eleventyNavigation %}
+						<ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+							{% for entry in navPages %}
+								<li class="inline">
+									<a href={{ entry.url }} class="block py-2 pl-3 pr-4 text-white rounded lg:bg-transparent lg:p-0 dark:text-white
+						 {{'text-primary-500' if entry.url in page.url
+						 else 'text-gray-700'}}">
+
+									 {{ entry.title }}
+								 </a>
+								</li>
+							{% endfor %}
+					 </ul>
+          </nav>
+        </div>
+        <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
+          <a
+            href="https://app.useaware.co"
+            class="text-dark hover:text-primary py-3 px-7 text-base font-medium"
+          >
+            Login
+          </a>
+          <a
+            href="https://app.useaware.co"
+            class="bg-primary-500 rounded-lg py-3 px-7 text-base font-medium text-white hover:bg-opacity-90"
+          >
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- ====== Navbar Section End -->
